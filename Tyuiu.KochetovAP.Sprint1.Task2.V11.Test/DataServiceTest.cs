@@ -9,7 +9,7 @@ namespace Tyuiu.KochetovAP.Sprint1.Task2.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double area = TriangleArea(-2, 5, 1, 7, 5, -3);
+            double area = ds.TriangleArea(-2, 5, 1, 7, 5, -3);
             Assert.Equals(19, Math.Round(area, 0));
         }
     }
