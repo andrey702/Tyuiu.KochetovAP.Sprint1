@@ -1,4 +1,7 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using System.Diagnostics.Tracing;
+using System.Linq;
+
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KochetovAP.Sprint1.Task6.V8.Lib
 {
@@ -6,24 +9,14 @@ namespace Tyuiu.KochetovAP.Sprint1.Task6.V8.Lib
     {
         public string MoveLetterToEnd(string value)
         {
-            if (string.IsNullOrEmpty(word) || word.Length == 1)
-                return word;
-
-            return word.Substring(1) + word[0];
-        }
-
-        public static string TransformText(string text)
-        {
-            if (string.IsNullOrEmpty(text))
-                return text;
-
-            string[] words = text.Split(' ');
+            return string.Join("", value);
+            if (string.IsNullOrEmpty(value))
+                return value;
+            string[] words = value.Split(' ');
             for (int i = 0; i < words.Length; i++)
-            {
-                words[i] = MoveLetterToEnd(words[i]);
-            }
+                if (words[i].Length > 1)
+                    words[i] = words[i].Substring(1) + words[i][0];
 
-            return string.Join(" ", words);
         }
     }
 }
