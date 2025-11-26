@@ -1,4 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
 namespace Tyuiu.KochetovAP.Sprint1.Task1.V11.Lib
 {
     public class DataService : ISprint1Task1V11
