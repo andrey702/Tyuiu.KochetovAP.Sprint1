@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KochetovAP.Sprint1.Ta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KochetovAP.Sprint1.Task1", "Tyuiu.KochetovAP.Sprint1.Task1\Tyuiu.KochetovAP.Sprint1.Task1.csproj", "{EEA79CA6-F911-4336-A8A3-E4D11CDFD445}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KochetovAP.Sprint1.Task1.V11", "Tyuiu.KochetovAP.Sprint1.Task1\Tyuiu.KochetovAP.Sprint1.Task1.V11.csproj", "{EEA79CA6-F911-4336-A8A3-E4D11CDFD445}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KochetovAP.Sprint1.Task1.V11.Lib", "Tyuiu.KochetovAP.Sprint1.Task1.V11.Lib\Tyuiu.KochetovAP.Sprint1.Task1.V11.Lib.csproj", "{DF08CD34-E190-4094-AFFB-548BDF8BD6A3}"
 EndProject
